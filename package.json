@@ -1,0 +1,42 @@
+{
+  "name": "mezzanine-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated cinematic code-editor Instagram Reel production system (Remotion + Claude).",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/cli/index.ts generate",
+    "generate:batch": "tsx src/cli/index.ts batch",
+    "list": "tsx src/cli/index.ts list",
+    "preview": "tsx src/cli/index.ts preview",
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "setup": "remotion browser ensure",
+    "song": "tsx src/cli/index.ts song",
+    "songs": "tsx src/cli/index.ts songs",
+    "dashboard": "tsx src/dashboard/server.ts",
+    "words": "tools/align/.venv/bin/python -I tools/align/align.py --words",
+    "setup:align": "uv venv -q tools/align/.venv && uv pip install -q --python tools/align/.venv/bin/python faster-whisper numpy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.4.0",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/fonts": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "commander": "^14.0.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0"
+  }
+}

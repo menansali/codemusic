@@ -1,0 +1,28 @@
+{
+  "name": "codemusic.tr",
+  "tagline": "Sürprizli kod-şarkı videoları. Sevdiğin şarkıların gerçek hikâyesi, her vuruşta yazılıyor.",
+  "palette": {
+    "accent": "#ff2a2a",
+    "warm": "#ff8a2a"
+  },
+  "cursorColors": [
+    "#ff2a2a",
+    "#3d8bff"
+  ],
+  "props": [
+    "none"
+  ],
+  "transitions": "mixed",
+  "filenameExt": "js",
+  "hero": "auto",
+  "vibe": "auto",
+  "ending": "auto",
+  "episodes": true,
+  "hashtags": [
+    "#keşfet",
+    "#şarkısözleri",
+    "#kod",
+    "#lyrics"
+  ],
+  "hookStyle": "macro"
+}

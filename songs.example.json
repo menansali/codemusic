@@ -1,0 +1,13 @@
+[
+  {
+    "music": "/Users/you/Music/blok3-cok-guzel-guluyorsun.mp3",
+    "lyrics": "assets/lyrics/blok3-cok-guzel-guluyorsun.lrc",
+    "story": "assets/stories/blok3-cok-guzel-guluyorsun.txt",
+    "hook": "çok güzel gülüyorsun",
+    "names": ["blok3", "poizi"],
+    "title": "Çok Güzel Gülüyorsun",
+    "artist": "BLOK3",
+    "vibe": "gece",
+    "variants": 2
+  }
+]

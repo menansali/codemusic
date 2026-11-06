@@ -1,0 +1,22 @@
+node_modules
+node_modules/
+node_modules.nosync/
+output/
+public/audio/
+.remotion-bundle/
+.env
+*.log
+.DS_Store
+assets/music/*
+!assets/music/.gitkeep
+assets/lyrics/*
+!assets/lyrics/.gitkeep
+assets/stories/*
+!assets/stories/.gitkeep
+
+# dashboard state (post queue, tokens stay in .env)
+data/
+tools/align/.venv/
+
+# third-party reference videos: study material, never published
+references/
